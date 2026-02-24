@@ -2,7 +2,6 @@ import open3d as o3d
 import copy
 import numpy as np
 import argparse
-import sys
 
 def main():
     parser = argparse.ArgumentParser(description="Rotate a specific PLY file 180 degrees around an axis")

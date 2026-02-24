@@ -2,7 +2,6 @@ import open3d as o3d
 import copy
 import numpy as np
 import argparse
-import sys
 
 def main():
     parser = argparse.ArgumentParser(description="Apply sequential rotations to a PLY file")
