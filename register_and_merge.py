@@ -149,7 +149,7 @@ def full_registration(pcds, voxel_size):
                             source_id, target_id, trans,
                             information_matrix, uncertain=True))
             
-    print("\nrunning Pose Graph Optimization...")
+    print("\nRunning Pose Graph Optimization...")
     option = o3d.pipelines.registration.GlobalOptimizationOption(
         max_correspondence_distance=voxel_size * 1.5,
         edge_prune_threshold=0.25,
